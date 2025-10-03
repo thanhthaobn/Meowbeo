@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+figure {
+    display: block;
+    margin: 20px auto;
+    width: 700px;
+}
+
+figure h1, h2 {
+    color: coral;
+}
+
+figure img {
+    max-width: 100%;
+    display: block;
+}
+
+figure figcaption {
+    background-color: lightgray;
+    text-align: center;
+    padding: 6px;
+    font-style: italic;
+}
+
+figure .noidung {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
+
+figure .highlight{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.xem-them {
+    background-color: #e6f7ff;   /* xanh nhạt */
+    border-left: 4px solid coral; /* viền cam bên trái */
+    padding: 10px 15px;
+    margin: 20px 0;
+}
+
+.xem-them p {
+    margin: 0 0 8px 0;
+}
+
+.xem-them.link-list a {
+    color: coral;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.xem-them.text-box a{
+    display: inline;     
+    color: coral;
+    font-weight: bold;
+    text-decoration: none;
+}
